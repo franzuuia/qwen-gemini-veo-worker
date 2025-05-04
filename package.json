@@ -1,0 +1,26 @@
+{
+  "name": "qwen-gemini-veo-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker para conectar con Qwen, Gemini y Veo 2, con soporte para n8n",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "rollup -c",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "qwen",
+    "gemini",
+    "veo",
+    "cloudflare",
+    "worker",
+    "n8n"
+  ],
+  "author": "franzuuia",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.25.0",
+    "wrangler": "^3.0.0"
+  }
+}
