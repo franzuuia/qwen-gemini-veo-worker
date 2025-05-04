@@ -1,0 +1,10 @@
+name = "qwen-gemini-veo-worker"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+# Variables de entorno opcionales (definir en el panel de Cloudflare)
+[vars]
+# Si necesitas modificar las URLs base
+# QWEN_API_BASE = "https://qianwen.biz.aliyun.com"
+# GEMINI_API_BASE = "https://gemini.google.com"
+# VEO_API_BASE = "https://veo.google.com"
